@@ -189,13 +189,18 @@ section{
   .content-container{
     position: absolute;
     top: 15%;
-    right: 5%;
+    right: 0;
+    background-color: rgba(228, 229, 230, .6);
+    width: 40vw;
+    padding-right: 6vw;
+    padding-top: 30px;
+    padding-bottom: 30px;
     h2{
-      font-size: 100px;
+      font-size: 50px;
       font-family: gotham;
       font-weight: 900;
       text-align: right;
-      line-height: 100px;
+      line-height: 50px;
       margin-bottom: 25px;
     }
     h3{
@@ -230,11 +235,11 @@ section{
     top: 15%;
     left: 5%;
     h2{
-      font-size: 100px;
+      font-size: 50px;
       font-family: gotham;
       font-weight: 900;
       text-align: left;
-      line-height: 100px;
+      line-height: 50px;
       margin-bottom: 25px;
     }
     h3{
@@ -272,17 +277,23 @@ h2{
   -webkit-text-stroke-width: 4px;
  -webkit-text-stroke-color: $orange;
  color: rgba(255,  255, 255, 0);
+ font-size: 100px;
+ line-height: 90px;
 }
 
 .outline-turquoise{
   -webkit-text-stroke-width: 4px;
  -webkit-text-stroke-color: $turquoise;
  color: rgba(255,  255, 255, 0);
+ font-size: 100px;
+ line-height: 90px;
 }
 
 .outline-green{
   -webkit-text-stroke-width: 4px;
  -webkit-text-stroke-color: $green;
  color: rgba(255,  255, 255, 0);
+ font-size: 100px;
+ line-height: 90px;
 }
 /*TYPOGRAPHY*/

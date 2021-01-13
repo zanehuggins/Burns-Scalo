@@ -136,13 +136,18 @@ section {
 .section-even .content-container {
   position: absolute;
   top: 15%;
-  right: 5%; }
+  right: 0;
+  background-color: rgba(228, 229, 230, 0.6);
+  width: 40vw;
+  padding-right: 6vw;
+  padding-top: 30px;
+  padding-bottom: 30px; }
   .section-even .content-container h2 {
-    font-size: 100px;
+    font-size: 50px;
     font-family: gotham;
     font-weight: 900;
     text-align: right;
-    line-height: 100px;
+    line-height: 50px;
     margin-bottom: 25px; }
   .section-even .content-container h3 {
     font-size: 22px;
@@ -166,11 +171,11 @@ section {
   top: 15%;
   left: 5%; }
   .section-odd .content-container h2 {
-    font-size: 100px;
+    font-size: 50px;
     font-family: gotham;
     font-weight: 900;
     text-align: left;
-    line-height: 100px;
+    line-height: 50px;
     margin-bottom: 25px; }
   .section-odd .content-container h3 {
     font-size: 22px;
@@ -195,17 +200,23 @@ section {
 .outline-orange {
   -webkit-text-stroke-width: 4px;
   -webkit-text-stroke-color: #F26524;
-  color: rgba(255, 255, 255, 0); }
+  color: rgba(255, 255, 255, 0);
+  font-size: 100px;
+  line-height: 90px; }
 
 .outline-turquoise {
   -webkit-text-stroke-width: 4px;
   -webkit-text-stroke-color: #00AC98;
-  color: rgba(255, 255, 255, 0); }
+  color: rgba(255, 255, 255, 0);
+  font-size: 100px;
+  line-height: 90px; }
 
 .outline-green {
   -webkit-text-stroke-width: 4px;
   -webkit-text-stroke-color: #C2D500;
-  color: rgba(255, 255, 255, 0); }
+  color: rgba(255, 255, 255, 0);
+  font-size: 100px;
+  line-height: 90px; }
 
 /*TYPOGRAPHY*/
 
