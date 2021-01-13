@@ -5,10 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <script src="https://unpkg.com/scrollreveal"></script>
-  <script>
-      ScrollReveal({ reset: true });
-  </script>
+ <script src="https://unpkg.com/scrollreveal"></script>
 
    <!-- Bootstrap CSS -->
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
@@ -26,7 +23,7 @@
 <header class="col-12 float-left">
   <div class="header-container">
 
-<a href="#" class="col-4 p-0 float-left"><img src="assets/images/logo.svg" alt="#"></a>
+<a href="index.html" class="col-4 p-0 float-left"><img src="assets/images/logo.svg" alt="#"></a>
     <ul class="p-0">
       <li class="active"><a href="#">WHO WE ARE</a></li>
       <li><a href="#">WHAT WE DO</a></li>
@@ -40,34 +37,16 @@
 
   </header>
 
-  <main class="col-12 float-left p-0">
+  <main class="reveal col-12 float-left p-0">
 
     <div id="main" class="scroll-container">
-      <section class="section1 section-odd fold">
 
-<h2>WHERE WORKSTYLE
-<br>
-<span>
-Meets Lifestyle
-</span>
-</h2>
-
-<a href="index.html#1" class="next"><img src="assets/components/arrow-down-white.svg" alt="#"></a>
-
-          <video loop muted autoplay class="video-background">
-  <source src="assets/videos/video.mp4" type="video/mp4">
-  <source src="movie.ogg" type="video/ogg">
-  Your browser does not support the video tag.
-</video>
-      </section>
+      <section class="section1 section-odd">
 
 
-      <section class="section2 section-even" id="section2">
-        <div class="header-background">
-        </div>
 
 <div class="image-container col-12 float-left p-0">
-  <img src="assets/images/zenith.png" alt="#" class="col-8 float-left p-0">
+  <img src="assets/images/zenith.png" alt="#" class="photo col-8 offset-4 float-left p-0">
 </div>
 
 <div class="content-container">
@@ -76,6 +55,28 @@ Meets Lifestyle
   <br>
   <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
 </div>
+      </section>
+
+
+      <section class="section2 section-even" id="section2">
+        <div class="grid-box-1">
+        </div>
+
+<div class="image-container col-12 float-left p-0">
+  <img src="assets/images/zenith.png" alt="#" class="photo col-8 float-left p-0">
+</div>
+
+<div class="content-container">
+  <h2>WE ARE<br><span class="outline-turquoise">BOLD</span></h2>
+  <h3>We dare create the future of commercial real estate.</h3>
+  <br>
+  </div>
+
+
+  <svg xmlns="http://www.w3.org/2000/svg" width="1920" height="2" viewBox="0 0 1920 2" class="svg">
+    <line id="Line_1" data-name="Line 1" x2="1920" transform="translate(0 1)" fill="none" stroke="#e4e5e6" stroke-width="2"/>
+  </svg>
+
 
       </section>
 
@@ -86,7 +87,7 @@ Meets Lifestyle
         </div>
 
 <div class="col-12 float-left p-0">
-  <img src="assets/images/riviera-3.png" alt="#" class="col-8 offset-4 float-right p-0">
+  <img src="assets/images/riviera-3.png" alt="#" class="photo col-8 offset-4 float-right p-0">
 </div>
 
 <div class="content-container">
@@ -102,7 +103,7 @@ Meets Lifestyle
         </div>
 
 <div class="col-12 float-left p-0">
-  <img src="assets/images/waldron.png" alt="#" class="col-8 float-left p-0">
+  <img src="assets/images/waldron.png" alt="#" class="photo col-8 float-left p-0">
 </div>
 
 <div class="content-container">
@@ -144,41 +145,9 @@ Meets Lifestyle
         <!-- Option 1: Bootstrap Bundle with Popper -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 
-    <script src="js/full-page-scroll.js"></script>
-    <script type="text/javascript">
-      new fullScroll({
-        mainElement: "main",
-        displayDots: true,
-        dotsPosition: "left",
-        animateTime: 0.7,
-        animateFunction: "ease",
-      });
-    </script>
-
-    <script src="js/animate-scroll.js"></script>
-
-
 <script>
-    ScrollReveal().reveal('.headline');
-ScrollReveal().reveal('.tagline', { delay: 500 });
-ScrollReveal().reveal('.punchline', { delay: 2000 });
+ScrollReveal().reveal('.photo');
 </script>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.1/js/foundation.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.16.1/TweenMax.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.16.1/plugins/ScrollToPlugin.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.16.1/plugins/EaselPlugin.min.js"></script>
-<script src="animate-scroll.js"></script>
-<script>
-      $(document).foundation();
-      $(document).animateScroll();
-
-
-      var doc = document.documentElement;
-      doc.setAttribute('data-useragent', navigator.userAgent);
-    </script>
-
     </body>
 
 </html>

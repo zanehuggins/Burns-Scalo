@@ -131,68 +131,90 @@ main {
 
 section {
   overflow: hidden;
+  height: 100vh; }
+
+.svg {
+  position: absolute;
+  top: 100px; }
+
+.section-even {
   position: relative; }
+  .section-even .content-container {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: rgba(228, 229, 230, 0.5);
+    width: 40vw;
+    padding-left: 10vw;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 425px; }
+    .section-even .content-container h2 {
+      font-size: 40px;
+      font-family: gotham;
+      font-weight: 900;
+      text-align: left;
+      line-height: 50px;
+      margin-right: 100%;
+      margin-bottom: 25px;
+      margin-right: auto; }
+    .section-even .content-container h3 {
+      font-size: 22px;
+      font-weight: 600;
+      text-align: left;
+      width: 20vw;
+      float: left;
+      font-family: adelle;
+      margin-bottom: 25px; }
+    .section-even .content-container p {
+      font-family: gotham;
+      text-align: left;
+      float: left;
+      font-size: 16px;
+      line-height: 26px;
+      width: 20vw; }
 
-.section-even .content-container {
+.grid-box-1 {
+  height: 70px;
+  width: 100vw;
+  border-top: 2px solid lightgrey;
+  border-bottom: 2px solid lightgrey;
+  z-index: 10;
   position: absolute;
-  top: 15%;
-  right: 0;
-  background-color: rgba(228, 229, 230, 0.6);
-  width: 40vw;
-  padding-right: 6vw;
-  padding-top: 30px;
-  padding-bottom: 30px; }
-  .section-even .content-container h2 {
-    font-size: 50px;
-    font-family: gotham;
-    font-weight: 900;
-    text-align: right;
-    line-height: 50px;
-    margin-bottom: 25px; }
-  .section-even .content-container h3 {
-    font-size: 22px;
-    font-weight: 600;
-    text-align: right;
-    width: 20vw;
-    float: right;
-    font-family: adelle;
-    margin-bottom: 25px;
-    margin-left: 100%; }
-  .section-even .content-container p {
-    font-family: gotham;
-    text-align: right;
-    float: right;
-    font-size: 16px;
-    line-height: 26px;
-    width: 20vw; }
+  height: 425px;
+  top: 60px; }
 
-.section-odd .content-container {
-  position: absolute;
-  top: 15%;
-  left: 5%; }
-  .section-odd .content-container h2 {
-    font-size: 50px;
-    font-family: gotham;
-    font-weight: 900;
-    text-align: left;
-    line-height: 50px;
-    margin-bottom: 25px; }
-  .section-odd .content-container h3 {
-    font-size: 22px;
-    font-weight: 600;
-    text-align: left;
-    width: 20vw;
-    float: left;
-    font-family: adelle;
-    margin-bottom: 25px;
-    margin-right: 100%; }
-  .section-odd .content-container p {
-    font-family: gotham;
-    text-align: left;
-    float: left;
-    font-size: 16px;
-    line-height: 26px;
-    width: 20vw; }
+.section-odd {
+  position: relative; }
+  .section-odd .content-container {
+    position: absolute;
+    top: 15%;
+    left: 5%; }
+    .section-odd .content-container h2 {
+      font-size: 40px;
+      font-family: gotham;
+      font-weight: 900;
+      text-align: left;
+      line-height: 50px;
+      margin-right: 100%;
+      margin-bottom: 25px;
+      margin-right: auto; }
+    .section-odd .content-container h3 {
+      font-size: 22px;
+      font-weight: 600;
+      text-align: left;
+      width: 20vw;
+      float: left;
+      font-family: adelle;
+      margin-bottom: 25px;
+      margin-right: 100%; }
+    .section-odd .content-container p {
+      font-family: gotham;
+      text-align: left;
+      float: left;
+      font-size: 16px;
+      line-height: 26px;
+      width: 20vw; }
 
 .scroll-container section h2 {
   transition: 1s; }
@@ -201,22 +223,22 @@ section {
   -webkit-text-stroke-width: 4px;
   -webkit-text-stroke-color: #F26524;
   color: rgba(255, 255, 255, 0);
-  font-size: 100px;
-  line-height: 90px; }
+  font-size: 75px;
+  line-height: 75px; }
 
 .outline-turquoise {
   -webkit-text-stroke-width: 4px;
   -webkit-text-stroke-color: #00AC98;
   color: rgba(255, 255, 255, 0);
-  font-size: 100px;
-  line-height: 90px; }
+  font-size: 75px;
+  line-height: 75px; }
 
 .outline-green {
   -webkit-text-stroke-width: 4px;
   -webkit-text-stroke-color: #C2D500;
   color: rgba(255, 255, 255, 0);
-  font-size: 100px;
-  line-height: 90px; }
+  font-size: 75px;
+  line-height: 75px; }
 
 /*TYPOGRAPHY*/
 

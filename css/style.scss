@@ -180,43 +180,52 @@ main{
 }
 section{
   overflow: hidden;
-  position: relative;
+  height: 100vh;
 }
 
+.svg{
+  position: absolute;
+  top: 100px;
+}
 
 .section-even{
-
+  position: relative;
   .content-container{
     position: absolute;
-    top: 15%;
+    top: 60px;
     right: 0;
-    background-color: rgba(228, 229, 230, .6);
+    background-color: rgba(228, 229, 230, .5);
     width: 40vw;
-    padding-right: 6vw;
+
+    padding-left: 10vw;
     padding-top: 30px;
     padding-bottom: 30px;
+height: 425px;
+
     h2{
-      font-size: 50px;
+      font-size: 40px;
       font-family: gotham;
       font-weight: 900;
-      text-align: right;
+      text-align: left;
       line-height: 50px;
+      margin-right: 100%;
       margin-bottom: 25px;
+      margin-right: auto;
     }
     h3{
       font-size: 22px;
       font-weight: 600;
-      text-align: right;
+      text-align: left;
       width: 20vw;
-      float: right;
+      float: left;
       font-family: adelle;
       margin-bottom: 25px;
-      margin-left: 100%;
+
     }
     p{
       font-family: gotham;
-      text-align: right;
-      float: right;
+      text-align: left;
+      float: left;
       font-size: 16px;
       line-height: 26px;
       width: 20vw;
@@ -226,21 +235,35 @@ section{
 
 
 
+.grid-box-1{
+  height: 70px;
+  width: 100vw;
+  border-top: 2px solid lightgrey;
+  border-bottom: 2px solid lightgrey;
+  z-index: 10;
+  position: absolute;
+  height: 425px;
+  top: 60px;
+}
+
 
 
 .section-odd{
+  position: relative;
 
   .content-container{
     position: absolute;
     top: 15%;
     left: 5%;
     h2{
-      font-size: 50px;
+      font-size: 40px;
       font-family: gotham;
       font-weight: 900;
       text-align: left;
       line-height: 50px;
+      margin-right: 100%;
       margin-bottom: 25px;
+      margin-right: auto;
     }
     h3{
       font-size: 22px;
@@ -273,27 +296,28 @@ h2{
 
 
 
+
 .outline-orange{
   -webkit-text-stroke-width: 4px;
  -webkit-text-stroke-color: $orange;
  color: rgba(255,  255, 255, 0);
- font-size: 100px;
- line-height: 90px;
+ font-size: 75px;
+ line-height: 75px;
 }
 
 .outline-turquoise{
   -webkit-text-stroke-width: 4px;
  -webkit-text-stroke-color: $turquoise;
  color: rgba(255,  255, 255, 0);
- font-size: 100px;
- line-height: 90px;
+ font-size: 75px;
+ line-height: 75px;
 }
 
 .outline-green{
   -webkit-text-stroke-width: 4px;
  -webkit-text-stroke-color: $green;
  color: rgba(255,  255, 255, 0);
- font-size: 100px;
- line-height: 90px;
+ font-size: 75px;
+ line-height: 75px;
 }
 /*TYPOGRAPHY*/
