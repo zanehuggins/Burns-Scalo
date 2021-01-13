@@ -4,9 +4,15 @@ $gray50: #8C8E90;
 $turquoise: #00AC98;
 $green: #C2D500;
 
+body{
+    scroll-behavior: smooth;
+}
+
 header{
   z-index: 100;
   position: fixed;
+  background-color: rgba(255, 255, 255, .85);
+  height: 60px;
   .header-container{
 position: relative;
   }
@@ -69,7 +75,10 @@ footer{
   z-index: 100;
   position: fixed;
   bottom: 0;
-  right: 6vw;
+  height: 30px;
+  background-color: rgba(255, 255, 255, .85);
+  padding: 5px;
+
   .footer-ul{
     list-style: none;
     float: right;
@@ -121,17 +130,36 @@ footer{
     font-weight: bold;
     font-size: 65px;
     line-height: 65px;
+    z-index: 100;
     span{
       font-family: adelle;
       font-style: italic;
     }
   }
+
+
+
+.next{
+  color: white;
+  position: absolute;
+  bottom: 10%;
+  z-index: 100;
+  width: 5vw;
+  height: 5vw;
+  bottom: 50px;
+  left: 0;
+  right: 0;
+  margin-left: 47.5vw;
+  margin-right: 47.5vw;
+}
 }
 
 
 .video-background{
   width: 100vw!important;
   height: auto;
+  position: absolute;
+  left: 0;
 }
 
 .header-background{
